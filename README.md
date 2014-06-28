@@ -1,4 +1,4 @@
-debug-icons-standard-0.8.9
-==========================
+debug-icons-oxygen-4
+====================
 
-This icon set contains all the icons from the Freedesktio Icon Naming Specification Version 0.8.90
+This debug icon set contains all the icons from the latest Oxygen icon theme
