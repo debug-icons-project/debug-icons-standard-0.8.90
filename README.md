@@ -19,13 +19,15 @@ Copy the folder `debug-icons-standard-0.8.90` and all the containing files to th
 If you also want to update and extend the icon theme from time to time, you have two possibilities: either run the script(s) and copy the updated icon theme to one of the aforementioned places or b) make a symlink in one of those places which links to wherever you put the whole debug-icons project folder. This way you don't have to copy the updated themes every time, but it is very likely that you still have to switch the icons theme or flush the icon cache. Otherwise new or updated icons might not be recognized.
 
 ###Description of icons
-Each icon in the theme contains a unique six letter ID which can be used to look up the corresponding filename. For the most common icons the ID is an abbreviation of the filename but for others it is just a random number. The file lookup_icons.txt in the main theme folder contains all ID/filename pairs. For larger icon sizes, the filename is also directly visible on icon itself.
+Each icon contains the following information:
 
-The context of the icon can be either determined from the first two letters of the automatically generated IDs (e.g. MI0323 is a MimeType icon) or from the background color of the icon. For larger icon sizes, the context is also visible on icon itself.
+* Each icon in the theme contains a unique six letter ID which can be used to look up the corresponding filename. For the most common icons the ID is an abbreviation of the filename but for others it is just a random number. The file lookup_icons.txt in the main theme folder contains all ID/filename pairs. For larger icon sizes, the filename is also directly visible on icon itself.
 
-Except for the smallest icon size (16x16) each icon includes its size in pixel in the lower left corner.
+* The context of the icon can be either determined from the first two letters of the automatically generated IDs (e.g. MI0323 is a MimeType icon) or from the background color of the icon. For larger icon sizes, the context is also visible on icon itself.
 
-The caption of each icon is done with a non-aliased font which means that if an icon is displayed in a wrong size (e.g. a 48x48 icon is displayed at a 45x45 size) the text will most likely look blured and unsharp. If the icon is displayed correctly, the text must be crisp and sharpp.
+* Except for the smallest icon size (16x16) each icon includes its size in pixel in the lower left corner.
+
+* The caption of each icon is done with a non-aliased font which means that if an icon is displayed in a wrong size (e.g. a 48x48 icon is displayed at a 45x45 size) the text will most likely look blured and unsharp. If the icon is displayed correctly, the text must be crisp and sharpp.
 
 ###Fall-back theme for another icon theme
 If you are developing a new icon theme or want to extend an existing icon theme it might make sense to set debug-icons as a fallback icon of your icon theme. This way, all missing icons of your theme will be replaced with icons from the debug-icons theme. This makes finding the correct filenames of missing icons much easier.
