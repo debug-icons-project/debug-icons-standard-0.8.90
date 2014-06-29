@@ -1,4 +1,4 @@
-debug-icons-oxygen-4
+debug-icons-standard-0.8.90
 ====================
 
 The goal of the debug-icons-project is to create icon themes which can be used to a) debug and modify existing icon themes, b) check the correct usage of icons in UIs/DEs or c) as a basis for new themes. In addition, the project provides a set of Python scripts which can be used to easily modify, extend and update the icon themes.
